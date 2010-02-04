@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Scott Barron", "Scott Petersen", "Travis Tilley"]
-  s.date = %q{2010-01-29}
+  s.date = %q{2010-02-04}
   s.description = %q{AASM is a continuation of the acts as state machine rails plugin, built for plain Ruby objects.}
   s.email = %q{scott@elitists.net, ttilley@gmail.com}
   s.extra_rdoc_files = [
@@ -23,11 +23,13 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "aasm.gemspec",
      "lib/aasm.rb",
      "lib/aasm/aasm.rb",
      "lib/aasm/event.rb",
      "lib/aasm/persistence.rb",
      "lib/aasm/persistence/active_record_persistence.rb",
+     "lib/aasm/persistence/mongo_mapper_persistence.rb",
      "lib/aasm/persistence/mongoid_persistence.rb",
      "lib/aasm/state.rb",
      "lib/aasm/state_machine.rb",
