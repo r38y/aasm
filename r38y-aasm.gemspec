@@ -35,6 +35,7 @@ Gem::Specification.new do |s|
      "lib/aasm/state_machine.rb",
      "lib/aasm/state_transition.rb",
      "lib/aasm/supporting_classes.rb",
+     "r38y-aasm.gemspec",
      "spec/functional/conversation.rb",
      "spec/functional/conversation_spec.rb",
      "spec/spec_helper.rb",
