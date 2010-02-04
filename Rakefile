@@ -4,7 +4,7 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "aasm"
+    gem.name = "r38y-aasm"
     gem.summary = %Q{State machine mixin for Ruby objects}
     gem.description = %Q{AASM is a continuation of the acts as state machine rails plugin, built for plain Ruby objects.}
     gem.homepage = "http://rubyist.github.com/aasm/"
